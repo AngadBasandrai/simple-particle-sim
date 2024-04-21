@@ -43,6 +43,7 @@ public class Particle : MonoBehaviour
     public void ApplyForce()
     {
         rb.AddForce(forceOnThis);
+        forceOnThis = Vector3.zero;
     }
 
     public void Update()

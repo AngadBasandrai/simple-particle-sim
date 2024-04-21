@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2991133486000882689}
   - component: {fileID: 2991133486000882694}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Particle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,6 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3e85240f7f763247b0bd3374cd41e12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 1
+  mass: 0.1
   rb: {fileID: 0}
   forceOnThis: {x: 0, y: 0, z: 0}

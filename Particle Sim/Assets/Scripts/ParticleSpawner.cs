@@ -6,7 +6,6 @@ public class ParticleSpawner : MonoBehaviour
 {
     public static ParticleSpawner Instance;
     public static Particle[] Spawns;
-    public GameObject[] particles;
     public GameObject particle;
     public bool spawn = false;
     public int spawns;

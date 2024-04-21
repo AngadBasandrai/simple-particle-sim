@@ -20,7 +20,7 @@ public class Cell : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        density = mass / 15;
+        density = mass / 21;
         GetComponent<MeshRenderer>().material.color = g.Evaluate(density);
     }
 }

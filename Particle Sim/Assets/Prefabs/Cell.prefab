@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2296899723925732587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.01, z: 0.5}
+  m_LocalScale: {x: 1, y: 0.01, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,18 +98,18 @@ MonoBehaviour:
     serializedVersion: 2
     key0: {r: 0, g: 0.046749115, b: 1, a: 1}
     key1: {r: 1, g: 0.912806, b: 0, a: 1}
-    key2: {r: 1, g: 0.4044842, b: 0, a: 0}
-    key3: {r: 1, g: 0, b: 0, a: 0}
-    key4: {r: 1, g: 0.9631752, b: 0.9631752, a: 0}
-    key5: {r: 1, g: 1, b: 1, a: 0}
+    key2: {r: 1, g: 0.8184187, b: 0, a: 0}
+    key3: {r: 1, g: 0.4044842, b: 0, a: 0}
+    key4: {r: 1, g: 0, b: 0, a: 0}
+    key5: {r: 1, g: 1, b: 0.8235294, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 3855
-    ctime1: 12722
-    ctime2: 21395
-    ctime3: 26792
-    ctime4: 34117
-    ctime5: 58211
+    ctime0: 3084
+    ctime1: 11565
+    ctime2: 20432
+    ctime3: 28527
+    ctime4: 38165
+    ctime5: 48766
     ctime6: 0
     ctime7: 0
     atime0: 0
