@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 925487109}
   - component: {fileID: 925487111}
   - component: {fileID: 925487110}
+  - component: {fileID: 925487112}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -168,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cell: {fileID: 2296899723925732587, guid: 077bdb293a9d5b744a1cdd9f2a72ec1a, type: 3}
-  bounds: 200
+  bounds: 100
 --- !u!114 &925487111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,10 +184,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particle: {fileID: 2991133486000882688, guid: 440fd5a159762be4eb29ea3e72623f4e, type: 3}
   spawn: 1
-  spawns: 3000
+  spawns: 2000
   xOff: 0
   yOff: 0
   zOff: 0
+--- !u!114 &925487112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925487108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce41c8146ddd2fe4096ac946387d794c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particle: {fileID: 2991133486000882688, guid: 440fd5a159762be4eb29ea3e72623f4e, type: 3}
+  spawn: 1
+  spawns: 1000
+  xOff: 20
+  yOff: 0
+  zOff: 20
 --- !u!1 &1483644539
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +259,7 @@ Camera:
   far clip plane: 500
   field of view: 60
   orthographic: 1
-  orthographic size: 200
+  orthographic size: 100
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
